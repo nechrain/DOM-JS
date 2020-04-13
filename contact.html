@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="
+    https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css
+    " integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      
+      <script src="
+    https://code.jquery.com/jquery-3.4.1.slim.min.js
+    " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js
+    " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="
+    https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js
+    " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+   
+    <script src="
+    https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js
+    " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css%22%3E">
+    <link rel='stylesheet' type='text/css' media='screen' href='barecereal.css'>
+    <script src='barecereal.js'></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+    <title>Barre de Céréal</title>
+</head>
+<body>
+    
+<!-- -----------------------------------partie profile + panier + search --------------------------------------- -->
+<div class="profile">
+    <p>
+        <a href="register.html">
+         
+        <a href="#">
+          <span id="nbr_product" class="glyphicon glyphicon-shopping-cart"style="font-size:23px;"> </span>
+        </a>
+      </p>
+      <nav class="navbar navbar-inverse bg-inverse  bg-faded">
+        <div class="row">
+            <div id="shopping_cart" class="col">
+              <button type="button" class="btn btn-add" data-toggle="modal" data-target="#cart">Cart (<span id="qtity" class="total-count"></span>)</button><button id="clear-cart" class="clear-cart btn btn-clear">Clear Cart</button></div>
+        </div>
+    </nav>
+</div>
+
+ <!----------------------------------- Navbar Home ----------------------------------------------->
+ <div class="nav2">
+    <div class="topnav" id="myTopnav">
+      <a href="barecereal.html" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="contact.html">Contact</a>
+      <div class="dropdown">
+        <button class="dropbtn">product
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <a href="inscription.html">Sign Up</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    </div>  
+<!--------------------------------FOOTER------------------------------------->
+<style>
+    body{
+        background-image: url(image/back.jpg);
+        background-size:cover;
+    }
+    hr{
+        background: white;	
+    }
+
+    .contact-form{
+        background:rgba(101, 185, 52, 0.6);
+        color:white;
+        margin-top: 100px;
+        padding: 20px;
+        box-shadow: 0px 0px 10px 3px rgb(59, 36, 18);
+    }
+</style>
+
+
+</head>
+<body>
+
+
+
+<div class="container contact-form">
+<h1>Contact form</h1>
+<hr>
+
+<div class="row">
+
+   <div class="col-md-6">
+       <address>Rue de l'independance</span> Soliman, Tunisia</address>
+       <p>Email: contact@kind.com</p>
+       <p>Phone: +216 72 290 743</p>
+   </div>
+
+   <div class="col-md-6">
+       
+     <div class="form-group">
+         <label>Name</label>
+         <input type="text" class="form-control">
+     </div>
+
+     <div class="form-group">
+         <label>Email</label>
+         <input type="text" class="form-control">
+     </div>
+
+     <div class="form-group">
+         <label>Massage</label>
+         <textarea  class="form-control" rows="7"></textarea>
+     </div>
+
+     <div class="form-group">
+         <button class="btn btn-primary btn-block">Send</button>
+     </div>
+
+   </div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+  
+  
+ 
+
+
+
+
+<!--------------------------------FOOTER------------------------------------->
+<div class="main"> </div>
+		<footer class="footer-distributed">
+ 
+		<div class="footer-left">
+ 
+		<h3>KIND<span>BARS</span></h3>
+ 
+		
+ 
+		
+		</div>
+ 
+		<div class="footer-center">
+ 
+		<div>
+		<i class="fa fa-map-marker"></i>
+		<p><span>Rue de l'independance</span> Soliman, Tunisia</p>
+		</div>
+ 
+		
+		<div>
+		<i class="fa fa-envelope"></i>
+		<p><a href="mailto:support@company.com">contact@KIND.com</a></p>
+		</div>
+ 
+		</div>
+ 
+		<div class="footer-right">
+ 
+		<p class="footer-company-about">
+		<span>OUR BARS</span>
+    These bars are where our journey started and it was simple: whole ingredients like nuts, mixed with fruits and spices bound together with honey.
+		</p>
+ 
+		
+ 
+      
+	
+ 
+		</div>
+ 
+		</div>
+ 
+		</footer>
+ 
+
+
+   
+</body>
+</html>
